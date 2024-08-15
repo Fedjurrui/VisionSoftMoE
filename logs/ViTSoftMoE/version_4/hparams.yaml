@@ -1,0 +1,13 @@
+channels: 3
+depth: 6
+dim: 64
+dim_head: 64
+heads: 8
+image_size: 32
+learning_rate: 1.0e-05
+num_classes: 10
+num_experts: 16
+num_slots: 8
+num_tokens: 16
+patch_size: 8
+warmup_steps: 4689
