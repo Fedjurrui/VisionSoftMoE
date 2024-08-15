@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 from einops import rearrange
-from src.base_models.simple_vit import *
+from einops.layers.torch import Rearrange
 ###########
 # Based on simple_vit.py at https://github.com/lucidrains/vit-pytorch/blob/main/vit_pytorch/simple_vit.py
 ###########
